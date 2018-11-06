@@ -4,7 +4,7 @@ ON series.id = books.series_id WHERE series.id = 1 ORDER BY year;"
 end
 
 def select_name_and_motto_of_char_with_longest_motto
-  "SELECT characters.name, characters.motto FROM characters ORDER BY motto.length;"
+  "SELECT characters.name, characters.motto FROM characters ORDER BY motto;"
 end
 
 
