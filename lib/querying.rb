@@ -1,5 +1,5 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "SELECT title FROM series INNER JOIN second_table
+  "SELECT title FROM series INNER JOIN books
 ON first_table.column_name = second_table.column_name;;"
 end
 
